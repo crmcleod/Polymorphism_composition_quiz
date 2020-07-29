@@ -4,6 +4,7 @@
 
 1. What does the ___word___ 'polymorphism' mean?
 
+poly = many, morph(ism) = change
 In this context it is the ability of one thing to be represented by many.
 
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
