@@ -9,7 +9,9 @@ In this context it is the ability of one thing to be represented by many.
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
 
 We could use interfaces to implement shared behaviours to different objects. In the implementation we also give the object the ability to be represented by the interface.
-
+```
+private class Guitar implements IMakeSound{}
+```
 3. What can we use to implement polymorphism in Java?
 
 Interfaces and parent or super classes.
@@ -33,6 +35,11 @@ When an object has (an)other object(s) under its ownership.
 7. When would you use composition? Provide a simple example in Java.
 
 Using the lab's example, a car has ownership over the engine, and a car is 'composed' of an engine (and other parts).
+```
+private Class Guitar implements IMakeSound{
+    Pickup pickup;
+}
+```
 
 8. What is/are the advantage(s) of using composition?
 
